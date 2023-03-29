@@ -110,8 +110,52 @@ void main()
 
 	else
 	{
-		printf("다시 입력해주세요 (10, 16, 8) : ");
+		printf("진수 값 입력이 잘못 되었습니다. \n다시 입력해주세요 (10, 16, 8) : ");
 		scanf_s("%d", &type);
+
+		if (type == 10)
+		{
+			printf("10진수 값 입력 : ");
+			scanf_s("%d", &data);
+		}
+
+		if (type == 16)
+		{
+			printf("16진수 값 입력 : ");
+			scanf_s("%x", &data);
+		}
+
+		if (type == 8)
+		{
+			printf("8진수 값 입력 : ");
+			scanf_s("%o", &data);
+		}
+
+		else
+		{
+			printf("진수 값 입력이 잘못 되었습니다. \n다시 입력해주세요 (10, 16, 8) : ");
+			scanf_s("%d", &type);
+
+			if (type == 10)
+			{
+				printf("10진수 값 입력 : ");
+				scanf_s("%d", &data);
+			}
+
+			if (type == 16)
+			{
+				printf("16진수 값 입력 : ");
+				scanf_s("%x", &data);
+			}
+
+			if (type == 8)
+			{
+				printf("8진수 값 입력 : ");
+				scanf_s("%o", &data);
+			}
+
+		}	
+
 	}
 
 	printf("10진수 ==> %d \n", data);
