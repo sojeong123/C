@@ -1,0 +1,30 @@
+﻿  HW2_1_2.c
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(83,3): error C2371: 'element': 재정의. 기본 형식이 다릅니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(5): message : 'element' 선언을 참조하십시오.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(100,28): error C2224: '.name' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(100,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(100,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(100,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(112,70): error C2224: '.name' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(112,92): error C2224: '.name' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(112,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(112,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(112,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(130,10): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(130,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(130,10): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(130,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(135,28): error C2224: '.name' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(135,12): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(135,12): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(135,12): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(135,12): message : 이 인수는 변환 지정자에서 사용됩니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(136,10): warning C4013: 'pritnf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(137,12): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(137,12): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(137,12): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(137,12): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(151,11): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(151,11): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(151,11): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
+C:\Users\betty\Desktop\HW2_1_2\HW2_1_2\HW2_1_2.c(151,11): message : 이 인수는 버퍼 크기로 사용됩니다.

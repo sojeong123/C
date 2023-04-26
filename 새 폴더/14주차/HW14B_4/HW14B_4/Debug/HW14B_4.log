@@ -1,0 +1,3 @@
+﻿  HW14B_4.c
+C:\Users\betty\Desktop\14주차\HW14B_4\HW14B_4\HW14B_4.c(11,46): error C2095: 'printf': 실제 매개 변수의 형식이 'void'입니다. 매개 변수 2
+C:\Users\betty\Desktop\14주차\HW14B_4\HW14B_4\HW14B_4.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'void'입니다.
