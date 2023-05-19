@@ -1,0 +1,15 @@
+﻿  Digital Clock.c
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(35,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(35,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(36,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(36,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(37,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(37,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(38,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(38,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(39,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(39,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(40,19): warning C4047: '함수': 'char *'의 간접 참조 수준이 'char [5][33]'과(와) 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(40,19): warning C4024: 'arrIn': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\전자시계\Digital Clock.c(68,17): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+  전자시계.vcxproj -> C:\Users\betty\Desktop\5\Github\C\C-programming\C-homework\전자시계\Debug\전자시계.exe
