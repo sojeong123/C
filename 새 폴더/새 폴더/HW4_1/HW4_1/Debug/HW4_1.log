@@ -1,5 +1,0 @@
-﻿  HW4_1.c
-C:\Users\betty\Desktop\HW4_1\HW4_1\HW4_1.c(133,12): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
-C:\Users\betty\Desktop\HW4_1\HW4_1\HW4_1.c(135,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-C:\Users\betty\Desktop\HW4_1\HW4_1\HW4_1.c(136,6): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
-  HW4_1.vcxproj -> C:\Users\betty\Desktop\HW4_1\Debug\HW4_1.exe

@@ -1,4 +1,0 @@
-﻿  HW4_0.c
-C:\Users\betty\Desktop\HW4_0\HW4_0\HW4_0.c(50,14): warning C4013: 'inorder_iter'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-HW4_0.obj : error LNK2019: _inorder_iter_main 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\betty\Desktop\HW4_0\Debug\HW4_0.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

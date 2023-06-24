@@ -1,0 +1,68 @@
+﻿  HW1_2_2.c
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(6,25): error C2054: 'typdef' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(9,12): error C2085: 'StackNode': 정식 매개 변수 목록에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(12,2): error C2061: 구문 오류: 식별자 'StackNode'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(13,1): error C2059: 구문 오류: '}'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(15,26): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(15,26): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(15,29): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(16,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(20,29): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(20,29): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(20,32): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(21,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(25,28): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(25,28): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(25,31): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(26,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(30,26): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(30,26): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(30,31): error C2370: 'element': 재정의. 스토리지 클래스가 다릅니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(5): message : 'element' 선언을 참조하십시오.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(30,39): error C2146: 구문 오류: ';'이(가) 'item' 식별자 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(30,43): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(31,1): error C2054: 'item' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(42,28): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(42,28): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(42,31): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(43,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(57,29): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(57,29): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(57,32): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(58,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(68,18): error C2065: 'LinkedStackType': 선언되지 않은 식별자입니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(68,18): error C2146: 구문 오류: ';'이(가) 's' 식별자 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(70,6): warning C4013: 'init'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(71,6): warning C4013: 'push'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(74,20): warning C4013: 'pop'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(74,20): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(74,20): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(75,20): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(75,20): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(76,20): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(76,20): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(77,25): warning C4013: 'is_empty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(77,25): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(77,25): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(83,3): error C2371: 'element': 재정의. 기본 형식이 다릅니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(5): message : 'element' 선언을 참조하십시오.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(85,27): error C2143: 구문 오류: ')'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(85,27): error C2143: 구문 오류: '{'이(가) '*' 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(85,30): error C2059: 구문 오류: ')'
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(86,1): error C2054: 's' 다음에 '('가 필요합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(102,1): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(66): message : 'main'의 이전 정의를 참조하십시오.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(103,12): error C2065: 'StackType': 선언되지 않은 식별자입니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(103,12): error C2146: 구문 오류: ';'이(가) 's' 식별자 앞에 없습니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(107,13): warning C4013: 'stack_print'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(108,4): error C2224: '.num' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(109,8): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(109,11): error C2224: '.str' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(112,4): error C2224: '.num' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(113,11): error C2224: '.str' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(116,4): error C2224: '.num' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(117,11): error C2224: '.str' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(120,4): error C2224: '.num' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(121,11): error C2224: '.str' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(125,4): error C2224: '.num' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.
+C:\Users\betty\Desktop\HW1_2_2\HW1_2_2\HW1_2_2.c(126,11): error C2224: '.str' 왼쪽에는 구조체/공용 구조체 형식이 있어야 합니다.

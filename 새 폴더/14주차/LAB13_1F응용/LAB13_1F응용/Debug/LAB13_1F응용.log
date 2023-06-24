@@ -1,4 +1,0 @@
-﻿  LAB13_1F응용.c
-C:\Users\betty\Desktop\14주차\LAB13_1F응용\LAB13_1F응용\LAB13_1F응용.c(16,9): warning C4101: 'same' :참조되지 않은 지역 변수입니다.
-C:\Users\betty\Desktop\14주차\LAB13_1F응용\LAB13_1F응용\LAB13_1F응용.c(15,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-  LAB13_1F응용.vcxproj -> C:\Users\betty\Desktop\14주차\LAB13_1F응용\Debug\LAB13_1F응용.exe
