@@ -1,0 +1,66 @@
+//LAB7_1
+// Name: Abdul Wahab
+// Date: 3/26/2017
+// Description: This program will read a file and display the contents of the file
+//				in a table format. It will also display the total number of students
+//				and the average of the students' scores.
+//				Extra Credit: The program will also display the highest and lowest
+//				scores of the students.
+// IDE used: Visual Studio 2015
+// Lab7_1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Created: 11/6/2018 9:55:00 AM
+// Author : ucrcse
+// Description : This program will take in a string of characters and display them on the LCD screen
+//				 one at a time. The user will be able to scroll through the characters using the buttons
+//				 on the LCD screen. The user will also be able to change the speed of the scrolling
+//				 characters using the potentiometer. The user will be able to change the brightness of
+//				 the LCD screen using the photoresistor. The user will be able to change the contrast
+//				 of the LCD screen using the potentiometer. The user will be able to change the
+//				 background color of the LCD screen using the photoresistor. The user will be able to
+//				 change the text color of the LCD screen using the potentiometer. The user will be able
+//				 to change the font size of the LCD screen using the photoresistor. The user will be
+//				 able to change the font style of the LCD screen using the potentiometer. The user will
+//				 be able to change the font of the LCD screen using the photoresistor. The user will be
+//				 able to change the text alignment of the LCD screen using the potentiometer. The user
+//				 will be able to change the text orientation of the LCD screen using the photoresistor.
+//				 The user will be able to change the text size of the LCD screen using the potentiometer.
+//				 The user will be able to change the text style of the LCD screen using the photoresistor.
+//				 The user will be able to change the text of the LCD screen using the potentiometer.
+//				 The user will be able to change the text of the LCD screen using the photoresistor.
+//				 The user will be able to change the text of the LCD screen using the potentiometer.
+//				 The user will be able to change the text of the LCD screen using the photoresistor.
+
+//				 The user will be able to change the text of the LCD screen using the potentiometer.
+//				 The user will be able to change the text of the LCD screen using the photoresistor.
+//				 The user will be able to change the text of the LCD screen using the potentiometer.
+	
+	
+	
+	
+	
+	
+
+
+
