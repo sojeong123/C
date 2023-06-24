@@ -1,6 +1,0 @@
-﻿  C-programming 8th week.c
-C:\Users\betty\Desktop\Github\C\C-programming\C-homework\C프로그래밍 8주차\C프로그래밍 8주차\C-programming 8th week.c(16,13): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
-C:\Users\betty\Desktop\Github\C\C-programming\C-homework\C프로그래밍 8주차\C프로그래밍 8주차\C-programming 8th week.c(16,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
-C:\Users\betty\Desktop\Github\C\C-programming\C-homework\C프로그래밍 8주차\C프로그래밍 8주차\C-programming 8th week.c(16,13): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
-C:\Users\betty\Desktop\Github\C\C-programming\C-homework\C프로그래밍 8주차\C프로그래밍 8주차\C-programming 8th week.c(16,13): message : 이 인수는 버퍼 크기로 사용됩니다.
-  C프로그래밍 8주차.vcxproj -> C:\Users\betty\Desktop\Github\C\C-programming\C-homework\C프로그래밍 8주차\Debug\C프로그래밍 8주차.exe

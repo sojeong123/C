@@ -1,8 +1,0 @@
-326페이지 연습문제 9번
-321페이지 예제 
-다음에 제시된 실행 결과와 같이 원본 문자열이 내림차순으로 정렬되어 출력되는 코드를 작성하세요. 단, 배열을 포인터로 대입한 후에 포인터를 사용해서 정렬하세요.
-char s[40] = "ITCookBookHanbitNetwork";
-
-실행결과 
-정렬 전 문자열 => ITCookBookHanbitNetwork
-정렬 후 문자열 => wttrooooonkkkiebaTNIHCB
