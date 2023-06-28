@@ -1,2 +1,2 @@
-﻿  TEST.c
-  TEST.vcxproj -> C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\TEST\x64\Debug\TEST.exe
+﻿LAB6_2.obj : error LNK2005: main이(가) LAB6_1.obj에 이미 정의되어 있습니다.
+C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\TEST\x64\Debug\TEST.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
