@@ -423,89 +423,82 @@ int main(void)
 */
 
 //HW8_5
+
+//실패코드
 /*
+//"1 * 2 * 3 * 4 * 5 = 120"로 출력
 #include <stdio.h>
 int main(void)
 {
-	int i;
-	int factorial = 1;
-	int num = 1;
+	int i, num, factorial = 1;
 
 	printf("Enter a number (>=2) : ");
 	scanf_s("%d", &num);
 
-	printf("%d! = ", num);
-
 	for (i = 1; i <= num; i++)
 	{
-		printf("%d", i);
-		factorial = factorial * i;
-		printf(" * ");
+		factorial *= i;
 	}
+
+	printf("%d! = ", num);
+
+	for (i = 1; i < num; i++)
+	{
+		printf("%d * ", i);
+	}
+
+	printf("%d = %d\n", num, factorial);
 
 	return 0;
 }
 */
 
-//Enter a number (>=2) : 5
-//5! = 5 * 4 * 3 * 2 * 1 = 120
-//을 출력하는 프로그램을 작성하라.
+//정답코드
+
 /*
 #include <stdio.h>
 int main(void)
 {
-	int i;
-	int factorial = 1;
-	int num = 1;
+	int i, num, factorial = 1;
 
-	printf("Enter a number (>=2) : ");
+	printf("Enter a number (>=2): ");
 	scanf_s("%d", &num);
+
+	// 역순으로 팩토리얼을 계산하기 위해 반복문의 시작과 조건식을 수정합니다.
+	for (i = num; i >= 1; i--)
+	{
+		factorial *= i;
+	}
 
 	printf("%d! = ", num);
 
-	for (i = 1; i <= num; i++)
+	// 역순으로 출력하기 위해 반복문의 시작과 증감식을 수정합니다.
+	for (i = num; i > 1; i--)
 	{
-		printf("%d", i);
-		factorial = factorial * i;
-		if (i < num)
-		{
-			printf(" * ");
-		}
+		printf("%d * ", i);
 	}
 
-	printf(" = %d", factorial);
+	printf("1 = %d\n", factorial);
 
 	return 0;
 }
 */
 
-//Enter a number (>=2) : 5
-//5! = 5 * 4 * 3 * 2 * 1 = 120
-//을 출력하는 프로그램을 작성하라.
-
+//HW8_6
 #include <stdio.h>
 int main(void)
 {
-	int i;
-	int factorial = 1;
+	int i = 1;
 	int num = 1;
+	int factorial = 1;
 
-	printf("Enter a number (>=2) : ");
+	printf("Enter a number : ");
 	scanf_s("%d", &num);
-
-	printf("%d! = ", num);
 
 	for (i = 1; i <= num; i++)
 	{
-		printf("%d", i);
-		factorial = factorial * i;
-		if (i < num)
-		{
-			printf(" * ");
-		}
+		factorial *= i;
 	}
-
-	printf(" = %d", factorial);
-
-	return 0;
 }
+
+7주차 요약숙제
