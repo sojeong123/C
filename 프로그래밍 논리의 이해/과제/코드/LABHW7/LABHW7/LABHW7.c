@@ -352,11 +352,6 @@ int main(void)
 	printf("Enter a student number : ");
 	scanf_s("%d", &student);
 
-	if (student == 0)
-		{	
-			printf("The total is 0.\n");
-		}
-
 	while (i <= student)
 	{
 		printf("Enter a scores : ");
@@ -432,11 +427,6 @@ int main(void)
 
 	printf("Enter a student number : ");
 	scanf_s("%d", &student);
-
-	if (student == 0)
-	{
-		printf("The total is 0.\nThe average is 0.0.\n");
-	}
 
 	i = 1;
 

@@ -423,20 +423,89 @@ int main(void)
 */
 
 //HW8_5
+/*
 #include <stdio.h>
 int main(void)
 {
-	int i, factorial;
+	int i;
+	int factorial = 1;
 	int num = 1;
 
 	printf("Enter a number (>=2) : ");
 	scanf_s("%d", &num);
 
+	printf("%d! = ", num);
+
 	for (i = 1; i <= num; i++)
 	{
-		printf("%d *", i);
+		printf("%d", i);
+		factorial = factorial * i;
+		printf(" * ");
 	}
+
 	return 0;
+}
+*/
+
+//Enter a number (>=2) : 5
+//5! = 5 * 4 * 3 * 2 * 1 = 120
+//을 출력하는 프로그램을 작성하라.
+/*
+#include <stdio.h>
+int main(void)
+{
+	int i;
+	int factorial = 1;
+	int num = 1;
+
+	printf("Enter a number (>=2) : ");
+	scanf_s("%d", &num);
 
 	printf("%d! = ", num);
+
+	for (i = 1; i <= num; i++)
+	{
+		printf("%d", i);
+		factorial = factorial * i;
+		if (i < num)
+		{
+			printf(" * ");
+		}
+	}
+
+	printf(" = %d", factorial);
+
+	return 0;
+}
+*/
+
+//Enter a number (>=2) : 5
+//5! = 5 * 4 * 3 * 2 * 1 = 120
+//을 출력하는 프로그램을 작성하라.
+
+#include <stdio.h>
+int main(void)
+{
+	int i;
+	int factorial = 1;
+	int num = 1;
+
+	printf("Enter a number (>=2) : ");
+	scanf_s("%d", &num);
+
+	printf("%d! = ", num);
+
+	for (i = 1; i <= num; i++)
+	{
+		printf("%d", i);
+		factorial = factorial * i;
+		if (i < num)
+		{
+			printf(" * ");
+		}
+	}
+
+	printf(" = %d", factorial);
+
+	return 0;
 }

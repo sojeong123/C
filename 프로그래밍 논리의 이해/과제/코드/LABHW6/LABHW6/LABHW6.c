@@ -219,12 +219,12 @@ int main(void)
 
 	if (grade == 'A')
 	{
-		printf("Congratulation!");
+		printf("Congratulation!\n");
 	}
 
 	else if (grade == 'B')
 	{
-		printf("Okay, try harder");
+		printf("Okay, try harder.\n");
 	}
 
 	else if (grade == 'C')
@@ -235,7 +235,7 @@ int main(void)
 		printf("Try harder, you need to get %d next time.\n", score+10);
 	}
 
-	else if (grade == 'D' || 'F')
+	else if (grade == 'D' || grade == 'F')		//"grade == "도 중복 작성 : D와 F를 같이 묶어서 처리
 	{
 		printf("Sorry, you should take this course again.\n");
 	}

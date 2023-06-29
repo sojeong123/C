@@ -18,10 +18,7 @@
     <ClCompile Include="TEST.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LAB7_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB7_2.c">
+    <ClCompile Include="HW7_3to4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
