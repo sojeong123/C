@@ -178,7 +178,7 @@ int main(void)
 	int i, num, answer;
 	int right = 0;
 
-	printf("Enter a number : ");
+	printf("몇 단을 연습하시겟습니까? : ");
 	scanf_s("%d", &num);
 
 	for (i = 1; i <= 9; i++)
@@ -208,7 +208,7 @@ int main(void)
 	int i, num, answer;
 	int right = 0;
 
-	printf("Enter a number : ");
+	printf("몇 단을 연습하시겟습니까? : ");
 	scanf_s("%d", &num);
 
 	for (i = 1; i <= 9; i++)
@@ -231,32 +231,6 @@ int main(void)
 */
 
 //HW8_2
-/*
-#include <stdio.h>
-int main(void)
-{
-	int i, score, bestScore;
-
-	for (i = 1; i < 6; i++)
-	{
-		printf("Enter a score : ");
-		scanf_s("%d", &score);
-
-		if (i == 1)
-		{
-			bestScore = score;
-		}
-
-		else if (score > bestScore)
-		{
-			bestScore = score;
-		}
-	}
-
-	printf("The best score is %d.\n", bestScore);
-}
-*/
-
 //실패코드
 /*
 #include <stdio.h>
@@ -374,8 +348,9 @@ int main(void)
 */
 
 //HW8_4
-/*
+
 //HW8_4_1 (for문 사용)
+/*
 #include <stdio.h>
 int main(void)
 {
@@ -454,7 +429,6 @@ int main(void)
 */
 
 //정답코드
-
 /*
 #include <stdio.h>
 int main(void)
@@ -485,12 +459,12 @@ int main(void)
 */
 
 //HW8_6
-#include <stdio.h>
+/*
+#include<stdio.h>
 int main(void)
 {
-	int i = 1;
-	int num = 1;
-	int factorial = 1;
+	int i, num;
+	long long factorial = 1;
 
 	printf("Enter a number : ");
 	scanf_s("%d", &num);
@@ -498,7 +472,63 @@ int main(void)
 	for (i = 1; i <= num; i++)
 	{
 		factorial *= i;
+		printf("%d! = %lld\n", i, factorial);
 	}
-}
 
-7주차 요약숙제
+	return 0;
+}
+*/
+
+//HW8_7
+/*
+#include <stdio.h>
+int main(void)
+{
+	int i, num;
+
+	printf("Enter a number : ");
+	scanf_s("%d", &num);
+
+	for (i = 1; i <= num; i++)
+	{
+		if (num % i == 0)
+		{
+			printf("%d ", i);
+		}
+	}
+	printf("\n");
+
+	return 0;
+}
+*/
+
+//HW8_8
+/*
+#include <stdio.h>
+int main(void)
+{
+	int i, num, count = 0;
+
+	printf("Enter a number : ");
+	scanf_s("%d", &num);
+
+	for (i = 1; i <= num; i++)
+	{
+		if (num % i == 0)
+		{
+			count++;
+		}
+	}
+
+	if (count == 2)
+	{
+		printf("소수이다.\n");
+	}
+	else
+	{
+		printf("소수가 아니다.\n");
+	}
+
+	return 0;
+}
+*/
