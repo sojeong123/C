@@ -18,8 +18,5 @@
     <ClCompile Include="TEST.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="HW8_5to7.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
