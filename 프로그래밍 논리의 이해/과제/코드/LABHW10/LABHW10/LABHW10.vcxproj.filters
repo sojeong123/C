@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TEST.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB10_5_0to1.c">
+    <ClCompile Include="LABHW10.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
