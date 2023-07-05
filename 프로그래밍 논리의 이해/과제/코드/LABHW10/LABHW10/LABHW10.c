@@ -92,38 +92,55 @@ void findNPrintBig(int n1, int n2)
 */
 
 //LAB10_3
-//성적 그래프 출력하기
-//(main 함수만 사용)
+/*
+#include <stdio.h>
+int main(void)
+{
+	int tom, mary, i;
 
-//Tom과 Mary의 성적을 입력받아서
-//점수만큼 별표를 찍어주는 프로그램입니다.
+	printf("Tom's score? : ");
+	scanf_s("%d", &tom);
+	printf("Mary's score? : ");
+	scanf_s("%d", &mary);
 
-//지금은 main 함수만 사용( 숙제에서 출력부분을 함수화함)
-//알고리즘 - 별표로 그래프를 찍어주고 나서는 각자의 성적을 숫자
-//(%02d 사용: 숫자가 2개 미만이면 그 자리는 0 으로 채움)로 표시해야 합니다.
+	printf("-------------Score Histogram----------------\n");
+	printf("Tom\t\t: ");
+	for (i = 0; i < tom; i++)
+		printf("*");
+	printf("<%02d>\n", tom);
+	printf("Mary\t\t: ");
+	for (i = 0; i < mary; i++)
+		printf("*");
+	printf("<%02d>\n", mary);
+	return 0;
+}
+*/
 
-//1. Tom 의 점수를 읽는다.
-//2. Mary 의 점수를 읽는다
-//3. Tom 의 별 막대 출력(for 문)
-//4. Mary 의 별 막대 출력(for 문)
+//LAB10_4
+/*
+#include<stdio.h>
+void printSum1ToN(int a);
+int main()
+{
+	int n;
 
-//실행 예시
-//Tom's score? : 4
-//Mary's score? : 12
-//-------------Score Histogram----------------
-//Tom		: ****<04>
-//Mary		: ************<12>
+	printf("Enter a number : ");
+	scanf_s("%d", &n);
 
-//Tom's score? : 5
-//Mary's score? : 0
-//-------------Score Histogram----------------
-//Tom		: *****<05>
-//Mary		: <00>
+	printSum1ToN(n);
+}
 
+void printSum1ToN(int a)
+{
+	int i, sum = 0;
 
+	for (i = 1; i <= a; i++)
+		sum += i;
 
-
-
+	printf("1~%d의 합 : %d\n", a, sum);
+	return;
+}
+*/
 
 //LAB10_5_0
 /*
@@ -169,5 +186,162 @@ void print_divisor(int num)
 			printf("%d\n", i);
 	}
 	return;
+}
+*/
+
+//HW10_1
+/*
+#include <stdio.h>
+void printManyChars(char ch, int num);
+int main(void)
+{
+	char c;
+	int n;
+
+	printf("Enter a character to print : ");
+	scanf_s("%c", &c);
+	printf("Enter the number of characters : ");
+	scanf_s("%d", &n);
+
+	printManyChars(c, n);
+	return 0;
+}
+
+void printManyChars(char ch, int num)
+{
+	int i;
+
+	for (i = 0; i < num; i++)
+		printf("%c", ch);
+	printf("\n");
+	return;
+}
+*/
+
+//HW10_2
+/*
+#include<stdio.h>
+void findNPrintBiggest(int a, int b, int c);
+int main(void)
+{
+	int num1, num2, num3;
+
+	printf("Enter three numbers : ");
+	scanf_s("%d %d %d", &num1, &num2, &num3);
+
+	findNPrintBiggest(num1, num2, num3);
+	return 0;
+}
+
+void findNPrintBiggest(int a, int b, int c)
+{
+	int big;
+
+	if (a > b)
+		big = a;
+	else
+		big = b;
+
+	if (big < c)
+		big = c;
+
+	printf("The Biggest number is %d.\n", big);
+	return;
+}
+*/
+
+//HW10_3
+/*
+#include<stdio.h>
+void printManyStars(int starNum);
+int main (void)
+{
+	int tom, mary, i;
+
+	printf("Tom's score? : ");
+	scanf_s("%d", &tom);
+	printf("Mary's score? : ");
+	scanf_s("%d", &mary);
+
+	printf("-------------Score Histogram----------------\n");
+	printf("Tom\t\t: ");
+	printManyStars(tom);
+	printf("Mary\t\t: ");
+	printManyStars(mary);
+	return 0;
+}
+
+void printManyStars(int starNum)
+{
+	int i;
+
+	for (i = 0; i < starNum; i++)
+		printf("*");
+	printf("<%02d>\n", starNum);
+
+	return;
+}
+*/
+
+//HW10_4
+/*
+#include<stdio.h>
+void printSumMToN(int m, int n);
+int main()
+{
+	int m, n;
+
+printf("Enter two numbers : ");
+scanf_s("%d %d", &m, &n);
+
+printSumMToN(m, n);
+}
+
+void printSumMToN(int m, int n)
+{
+	int i, sum = 0;
+
+	for (i = m; i <= n; i++)
+		sum += i;
+
+	printf("%d ~ %d의 합 : %d\n", m, n, sum);
+	return;
+}
+*/
+
+//Challenge10
+/*
+#include <stdio.h>
+void printFibo(int n);
+int main(void)
+{
+	int num, i;
+	printf("몇개의 피보나치 수열값을 출력할까요? (3보다 큰 정수): ");
+	scanf_s("%d", &num);
+
+	for (i = 0; i < num; i++)
+		printFibo(i);
+
+	printf("\n");
+
+	return 0;
+}
+
+void printFibo(int n)
+{
+	int i, fibo1 = 1, fibo2 = 1, fibo;
+
+	if (n == 0 || n == 1) {
+		printf("%d ", fibo1);
+		return;
+	}
+
+	for (i = 2; i <= n; i++) {
+		fibo = fibo1 + fibo2;
+		fibo1 = fibo2;
+		fibo2 = fibo;
+	}
+
+	printf("%d ", fibo);
 }
 */

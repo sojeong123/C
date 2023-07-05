@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LAB10_5_0to1.c" />
+    <ClCompile Include="Challenge10.c" />
     <ClCompile Include="TEST.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
