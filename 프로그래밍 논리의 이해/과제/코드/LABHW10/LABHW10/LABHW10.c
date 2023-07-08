@@ -347,3 +347,65 @@ void printFibo(int n)
 */
 
 //HW9_다(사이클)
+//입력받은 숫자는 출력 안함.
+/*
+#include <stdio.h>
+int main (void)
+{
+	int n;
+
+	printf("Enter a number : ");
+	scanf_s("%d", &n);
+	printf("\n길이는 %d\n", cycleNb(n));
+}
+
+int cycleNb(int num)
+{
+	int count = 1;
+
+	while (num != 1)
+	{
+		if (num % 2 == 0)
+			num /= 2;
+		else
+			num = num * 3 + 1;
+		count++;
+		printf("%d ", num);
+	}
+
+	printf("\n");
+	return count;
+}
+*/
+
+//입력받은 숫자 출력함.
+/*
+#include <stdio.h>
+int main(void)
+{
+	int n;
+
+	printf("Enter a number : ");
+	scanf_s("%d", &n);
+
+	printf("길이는 %d.\n", cycleNb(n));
+}
+
+int cycleNb(int num)
+{
+	int count = 1;
+
+	while (num != 1)
+	{
+		printf("%d ", num);
+		if (num % 2 == 0)
+			num /= 2;
+		else
+			num = num * 3 + 1;
+		count++;
+	}
+
+	printf("%d\n", num);
+	return count;
+}
+*/

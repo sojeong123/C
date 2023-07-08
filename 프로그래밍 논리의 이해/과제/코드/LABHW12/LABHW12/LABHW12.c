@@ -371,6 +371,7 @@ int main(void)
 //  47	26	71	38	69
 //  12	67	99
 
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -409,3 +410,4 @@ int main(void)
 	printf("\n");
 	return 0;
 }
+*/

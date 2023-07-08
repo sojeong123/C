@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW(Mersen_number).c" />
-    <ClCompile Include="HW11_1to2.c" />
-    <ClCompile Include="LAB11_2to3.c" />
-    <ClCompile Include="LAB12_1.c" />
+    <ClCompile Include="HW9_da_to_revisited.c" />
     <ClCompile Include="TEST.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
