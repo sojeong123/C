@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a618adda-6968-44e6-a829-ad7d6d6705be}</ProjectGuid>
-    <RootNamespace>TEST</RootNamespace>
+    <ProjectGuid>{3d0635d6-a935-46af-94ac-7604a9d4ca37}</ProjectGuid>
+    <RootNamespace>LABHW12</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW(Mersen_number).c" />
-    <ClCompile Include="HW11_1to2.c" />
-    <ClCompile Include="LAB11_2to3.c" />
-    <ClCompile Include="LAB12_1.c" />
-    <ClCompile Include="TEST.c" />
+    <ClCompile Include="LABHW12.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

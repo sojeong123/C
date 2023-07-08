@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TEST.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB11_2to3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="HW11_1to2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="HW(Mersen_number).c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB12_1.c">
+    <ClCompile Include="LABHW11.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
