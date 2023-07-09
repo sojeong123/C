@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW9_da_to_revisited.c" />
+    <ClCompile Include="LAB13_1.c" />
+    <ClCompile Include="LAB13_2.c" />
+    <ClCompile Include="LAB13_3.c" />
+    <ClCompile Include="LAB13_5.c" />
     <ClCompile Include="TEST.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

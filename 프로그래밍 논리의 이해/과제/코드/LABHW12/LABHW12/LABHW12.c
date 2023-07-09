@@ -329,85 +329,98 @@ int main(void)
 */
 
 //HW12_2
-//어떤 수(100이하의 수라고 가정)를 읽어서
-//그 수만큼의 난수(0부터 99까지의)를 생성하여
-//평균과 발생시킨 난수를 출력하는 프로그램을 작성하라.
-//출력시 아래의 실행결과처럼
-//5 개의 데이터를 한줄에,
-//그리고 각 숫자는 5개의 문자영역을 차지(% 5d 사용)하고
-//오른쪽 줄맞춤 되도록 하라.
-//실행결과
-//(난수 발생시 매번 다른 수가 나오도록 하는 것이 맞으나,
-//아래의 예는 srand(time(NULL))을 사용하지 않고(의사)난수를 발생시켰다.
-//답이 맞는 가를 보기위함이다.
-//즉, srand(time(NULL))을 사용하지않고 아래의 결과와 일치하는지 확인한후,
-//숙제를 낼때는 srand(…)를 사용하여 제출하라.
-
-//실행결과
-//Enter the number of random numbers(<= 100) : 50
-//난수의 평균은 48.
-//발생된 난수는
-//  41	67	34	0	69
-//	24	78	58	62	64
-//	 5	45	81	27	61
-//	91	95	42	27	36
-//	91	 4	 2	53	92
-//  82	21	16	18	95
-//  47	26	71	38	69
-//  12	67	99	35	94
-//   3	11	22	33	73
-//  64	41	11	53	68
-
-//실행결과
-//Enter the number of random numbers(<= 100) : 38
-//난수의 평균은 50.
-//발생된 난수는
-//  41	67	34	0	69
-//	24	78	58	62	64
-//	 5	45	81	27	61
-//	91	95	42	27	36
-//	91	 4	 2	53	92
-//  82	21	16	18	95
-//  47	26	71	38	69
-//  12	67	99
-
 /*
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int main(void)
-{
-	int num;
-	int i, j;
-	int total = 0;
-	int avg;
-	int data[100];
 
-	printf("Enter the number of random numbers(<= 100) : ");
+int main() {
+	int num, i;
+	int sum = 0;
+	int rand_num;
+
+	printf("Enter the number of random numbers (<= 100): ");
 	scanf_s("%d", &num);
 
-	for (i = 0; i < num; i++)
-	{
-		data[i] = rand() % 100;
-		total += data[i];
+	// 시드(seed) 설정을 위해 현재 시간 사용
+	srand(time(NULL));
+
+	for (i = 0; i < num; i++) {
+		rand_num = rand() % 100;  // 0부터 99까지의 난수 생성
+		sum += rand_num;
 	}
 
-	avg = total / num;
-
-	printf("난수의 평균은 %d.\n", avg);
+	printf("난수의 평균은 %d.\n", sum / num);
 	printf("발생된 난수는\n");
 
-	for (i = 0; i < num; i++)
-	{
-		printf("%5d", data[i]);
+	for (i = 0; i < num; i++) {
+		rand_num = rand() % 100;  // 0부터 99까지의 난수 생성
+		printf("%5d", rand_num);
 
-		if (i == 4 || i == 9 || i == 14 || i == 19 || i == 24 || i == 29 || i == 34 || i == 39 || i == 44 || i == 49 || i == 54 || i == 59 || i == 64 || i == 69 || i == 74 || i == 79 || i == 84 || i == 89 || i == 94 || i == 99)
-		{
+		if ((i + 1) % 5 == 0) {  // 5개의 숫자마다 줄바꿈
 			printf("\n");
 		}
 	}
 
-	printf("\n");
+	return 0;
+}
+*/
+
+//HW12_3
+/*
+#include <stdio.h>
+int main(void)
+{
+	int incomes[7];
+	int i;
+	int max;
+	int max_index;
+	int sum = 0;
+	int good_days = 0;
+	double average;
+
+	for (i = 0; i < 7; i++)
+	{
+		printf("Enter the income of day %d : ", i + 1);
+		scanf_s("%d", &incomes[i]);
+	}
+
+	max = incomes[0];
+	max_index = 0;
+
+	for (i = 1; i < 7; i++)
+	{
+		if (max < incomes[i])
+		{
+			max = incomes[i];
+			max_index = i;
+		}
+	}
+
+	printf("----------------------------------\n");
+	printf("The best income is %d on day %d.\n", max, max_index + 1);
+	printf("----------------------------------\n");
+
+	for (i = 0; i < 7; i++)
+	{
+		sum += incomes[i];
+	}
+
+	average = (double)sum / 7;
+
+	printf("The total is %d.\n", sum);
+	printf("The average is %.1lf.\n", average);
+	printf("The good days and their incomes are\n");
+
+	for (i = 0; i < 7; i++)
+	{
+		if (incomes[i] > average)
+		{
+			printf("day %d : %d\n", i + 1, incomes[i]);
+			good_days++;
+		}
+	}
+
 	return 0;
 }
 */

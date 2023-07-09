@@ -1,5 +1,4 @@
-﻿  HW9_da_to_revisited.c
+﻿  HW12_1.c
   TEST.c
-C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\TEST\TEST\TEST.c(1,1): warning C4828: 파일에 0xb4b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
   코드를 생성하고 있습니다...
   TEST.vcxproj -> C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\TEST\x64\Debug\TEST.exe
