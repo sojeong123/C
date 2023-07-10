@@ -1,2 +1,4 @@
 ﻿  LABHW13.c
+C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\LABHW13\LABHW13\LABHW13.c(492,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\LABHW13\LABHW13\LABHW13.c(492,10): message : 이 인수는 버퍼 크기로 사용됩니다.
   LABHW13.vcxproj -> C:\Users\betty\바탕 화면\1\Github\C\프로그래밍 논리의 이해\과제\코드\LABHW13\x64\Debug\LABHW13.exe
