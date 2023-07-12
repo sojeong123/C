@@ -1,6 +1,0 @@
-﻿  final.c
-C:\Users\betty\바탕 화면\Final\Final\final.c(613,9): error C2143: 구문 오류: '{'이(가) '<' 앞에 없습니다.
-C:\Users\betty\바탕 화면\Final\Final\final.c(613,9): error C2059: 구문 오류: '<'
-C:\Users\betty\바탕 화면\Final\Final\final.c(630,3): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\betty\바탕 화면\Final\Final\final.c(631,3): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\betty\바탕 화면\Final\Final\final.c(644,8): warning C4013: 'getMax'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
