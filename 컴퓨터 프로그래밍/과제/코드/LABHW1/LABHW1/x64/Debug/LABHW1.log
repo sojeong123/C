@@ -1,4 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(LABHW1.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   LAB1_2.c
-C:\Users\betty\바탕 화면\1\Github\C\컴퓨터 프로그래밍\과제\코드\LABHW1\LABHW1\LAB1_2.c(11,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  LABHW1.vcxproj -> C:\Users\betty\바탕 화면\1\Github\C\컴퓨터 프로그래밍\과제\코드\LABHW1\x64\Debug\LAB1_2.exe
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\LABHW1\LABHW1\LAB1_2.c(11,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LABHW1.vcxproj -> C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\LABHW1\x64\Debug\LAB1_2.exe

@@ -1,0 +1,28 @@
+A부터 I까지 숫자로 암호화
+대문자들에 대해서
+A는 1, B는 2, C는 3,...,Z는 26으로 수를 부여한다.
+주어진 단어(대문자로 구성된) (크기가 20미만)에 대해서 위의 매칭 방법대로 암호화하려 한다.
+예를 들어 주어진 단어가 ABD면 암호화 결과는 124가 된다.
+가정 1. 단어는 대문자로만 이루어진다.
+가정 2. A(1로 매칭)부터 I(9로 매칭)까지의 문자로만 이루어진다.
+대문자로 이루어진 문자열s를 위의 암호화규칙을 적용하여 숫자들로 된 문자열e로 변환하는 함수 changeToDigitEncode를 작성하여라. 원형은 다음과 같다. void changeToDigitEncode(char s[], char e[]);
+
+실행예시
+ABBA
+1221 <-숫자로 암호화 (A:1, B:2)
+
+BIG
+297 <-숫자로 암호화 (B:2, I:9, G:7)
+
+#include <stdio.h>
+void changeToDigitEncode(char s[], char e[]) //이 함수를 작성하시오.
+{
+//코드를 작성하시오.
+}
+int main(void) //변경하지 마시오.
+{
+char sentence[20], encoded[40];
+scanf("%s", sentence);
+changeToDigitEncode(sentence, encoded);
+printf("%s\n", encoded);
+}

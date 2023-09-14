@@ -1,0 +1,4 @@
+﻿  review_final_4_1.c
+review_final_2.obj : error LNK2005: main이(가) review_final_1.obj에 이미 정의되어 있습니다.
+review_final_3.obj : error LNK2005: main이(가) review_final_1.obj에 이미 정의되어 있습니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\2021 review\x64\Debug\2021 review_final.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
