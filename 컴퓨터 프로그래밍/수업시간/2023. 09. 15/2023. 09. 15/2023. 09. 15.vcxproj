@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1692b91f-dced-4048-a008-331fc55be0e9}</ProjectGuid>
-    <RootNamespace>My2021review</RootNamespace>
+    <ProjectGuid>{880587bd-ea6f-4de9-a195-e951e7d58f34}</ProjectGuid>
+    <RootNamespace>My20230915</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2021 review_final</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="review_final_1.c" />
-    <ClCompile Include="review_final_2.c" />
-    <ClCompile Include="review_final_3.c" />
-    <ClCompile Include="review_final_4_1.c" />
-    <ClCompile Include="review_final_5.c" />
+    <ClCompile Include="20230915.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
