@@ -1,0 +1,5 @@
+﻿  20230921.c
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\20230921\20230921\20230921.c(812,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\20230921\20230921\20230921.c(809,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\20230921\20230921\20230921.c(809,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  20230921.vcxproj -> C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\20230921\x64\Debug\20230921.exe
