@@ -1,7 +1,8 @@
 //20201012 컴퓨터학과 임소정
 //LABHW3_3_2
-#define SIZE 10
 #include <stdio.h>
+#define SIZE 10
+
 char askReservation(int* num);
 void printSeats(int s[], int size);
 void processReservation(int a[], int size, int num);
