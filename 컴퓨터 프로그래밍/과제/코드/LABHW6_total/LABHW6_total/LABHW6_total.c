@@ -64,7 +64,7 @@ int main(void)
 // 즉, 실행 예시는 그대로이다.
 // (위의 Lab6_0의 A부분을 참조하라.)
 
-
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 int main(void)
@@ -81,4 +81,139 @@ int main(void)
 
 	return 0;
 }
+*/
 
+/*
+문제 5. 2차원 배열 시계방향 rotate(난이도 중)
+
+행의 개수와 열의 개수가 5인 2차원 배열의 원소들을 입력받아
+시계방향으로 90도 회전하여 출력하려한다.
+
+함수 rotate2dimArray를 완성시켜
+아래와 같이 출력되게 하라.
+
+실행예:
+입력)
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+출력)
+21 16 11 6 1
+22 17 12 7 2
+23 18 13 8 3
+24 19 14 9 4
+25 20 15 10 5
+*/
+
+/*
+# define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+// a를 90도 시계방향으로 회전하여 b에 넣는다
+void rotate2dimArray(int a[][5], int b[][5], int size)
+{
+	int i, j;
+
+	for (i = 0; i < size; i++) {
+		for (j = 0; j < size; j++)
+			b[j][size - 1 - i] = a[i][j];
+	}
+	return;
+}
+
+int main(void)
+{
+	int A[5][5];
+	int B[5][5];
+	int n, key;
+	int i, j;
+	for (i = 0; i < 5; i++)
+		for (j = 0; j < 5; j++)
+			scanf("%d", &A[i][j]);
+
+	rotate2dimArray(A, B, 5);
+	for (i = 0; i < 5; i++) {
+		for (j = 0; j < 5; j++) {
+			printf("%d ", B[i][j]);
+		}
+		printf("\n");
+	}
+}
+*/
+
+/*
+지뢰찾기
+
+입력프롬트
+Input Grid:
+는 제거하고 돌려보세요
+*/
+
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#define X_VALUE 5 //2차원 배열의 행의 수
+#define Y_VALUE 5 //2차원 배열의 열의 수
+
+void readBombInfo(char grid[][Y_VALUE + 1])
+{
+	int i;
+	// grid 및 지뢰 정보 입력
+	printf("Input Grid\n");
+	for (i = 0; i < X_VALUE; i++)
+		scanf("%s", grid[i]);
+}
+void countBomb(char grid[][Y_VALUE + 1], int numOfBombs[][Y_VALUE])
+{
+	int i, j;
+
+	for (i = 0; i < X_VALUE; i++)
+		for (j = 0; j < Y_VALUE; j++)
+			if (grid[i][j] == '*') {
+				// 여기에 지뢰의 개수를 세어 numOfBombs에 넣는 코드 작성
+				//코드작성
+				if (i - 1 >= 0 && j - 1 >= 0)
+					numOfBombs[i - 1][j - 1]++;
+				if (i - 1 >= 0)
+					numOfBombs[i - 1][j]++;
+				if (i - 1 >= 0 && j + 1 < Y_VALUE)
+					numOfBombs[i - 1][j + 1]++;
+				if (j - 1 >= 0)
+					numOfBombs[i][j - 1]++;
+				if (j + 1 < Y_VALUE)
+					numOfBombs[i][j + 1]++;
+				if (i + 1 < X_VALUE && j - 1 >= 0)
+					numOfBombs[i + 1][j - 1]++;
+				if (i + 1 < X_VALUE)
+					numOfBombs[i + 1][j]++;
+				if (i + 1 < X_VALUE && j + 1 < Y_VALUE)
+					numOfBombs[i + 1][j + 1]++;
+			}
+}
+
+
+void display_numOfBombs(char grid[][Y_VALUE + 1], int numOfBombs[][Y_VALUE])
+{
+	int i, j;
+	for (i = 0; i < X_VALUE; i++) {
+		for (j = 0; j < Y_VALUE; j++)
+			if (grid[i][j] == '*')
+				printf("*");
+			else
+				printf("%d", numOfBombs[i][j]);
+		printf("\n");
+	}
+}
+
+int main(void)
+{
+	char grid[X_VALUE][Y_VALUE + 1]; //문자열의 경우 마지막에 NULL이 들어가야 하므로 
+	// 5X5 배열이 아닌 5X6 배열이 되어야 한다.	
+	int numOfBombs[X_VALUE][Y_VALUE] = { 0 }; //지뢰의 개수를 넣는 정수형 5X5 배열
+
+	readBombInfo(grid);
+	countBomb(grid, numOfBombs);
+	display_numOfBombs(grid, numOfBombs);
+}
+*/
