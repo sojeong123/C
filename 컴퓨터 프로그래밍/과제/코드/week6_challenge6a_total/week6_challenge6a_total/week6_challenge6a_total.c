@@ -60,6 +60,76 @@ int main (void) {
 }
 */
 
+// Challegne6b
+// 매개변수 word안의 숫자(연속 고려)들의 합을 리턴하는 함수 solution을 작성하라
+// 하나의 단어를 입력 받아서 이 단어 안에 포함된 숫자의 합을 출력하는 프로그램을 작성하라.
+// 단어 안에 숫자가 연이어 나올 경우 하나의 수로 간주한다.
+// 실행 예시
+// Enter a word : ab22c3d5
+// 글자 안의 수의 합은 30
+
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+int main(void)
+{
+	char word[81];
+	int total;
+
+	scanf("%s", word);
+	total = solution(word);
+	printf("%d\n", total);
+
+	return 0;
+
+}
+
+int solution(char* word)
+{
+	int answer = 0;
+	int i, j;
+	int len = strlen(word);
+	int count = 0;
+	int sum = 0;
+
+	for (i = 0; i < len; i++) {
+		if (word[i] >= '0' && word[i] <= '9') {
+			count++;
+		}
+		else {
+			if (count > 0) {
+				char* temp = (char*)malloc(sizeof(char) * (count + 1));
+				for (j = 0; j < count; j++) {
+					temp[j] = word[i - count + j];
+				}
+				temp[j] = '\0';
+				sum += atoi(temp);
+				free(temp);
+				count = 0;
+			}
+		}
+	}
+
+	if (count > 0) {
+		char* temp = (char*)malloc(sizeof(char) * (count + 1));
+		for (j = 0; j < count; j++) {
+			temp[j] = word[i - count + j];
+		}
+		temp[j] = '\0';
+		sum += atoi(temp);
+		free(temp);
+		count = 0;
+	}
+
+	answer = sum;
+
+	return answer;
+}
+*/
+
+
 // Challenge6d
 // 주어진 단어가 palindrome인지를 판별하는  프로그램을 작성하라.
 // palindrome이란 앞으로 읽으나 뒤로 읽으나 같은 단어를 말한다.
