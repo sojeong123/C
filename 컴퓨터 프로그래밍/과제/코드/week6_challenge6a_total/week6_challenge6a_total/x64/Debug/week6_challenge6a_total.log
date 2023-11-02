@@ -1,3 +1,2 @@
 ﻿  week6_challenge6a_total.c
-C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\week6_challenge6a_total\week6_challenge6a_total\week6_challenge6a_total.c(81,10): warning C4013: 'solution'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   week6_challenge6a_total.vcxproj -> C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\week6_challenge6a_total\x64\Debug\week6_challenge6a_total.exe

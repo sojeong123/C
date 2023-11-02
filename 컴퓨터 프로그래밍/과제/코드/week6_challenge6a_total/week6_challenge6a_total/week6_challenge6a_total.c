@@ -436,8 +436,8 @@ void matrix_multiplication(int data[][NUM_OF_MEMBERS], int result[][NUM_OF_MEMBE
 		{
 			for (k = 0; k < NUM_OF_MEMBERS; k++)
 				result[i][j] += data[i][k] * data[k][j];
-			if (result[i][j] > 0)
-				result[i][j] = 1;
+		//	if (result[i][j] > 0)
+		//		result[i][j] = 1;
 		}
 	}
 }

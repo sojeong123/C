@@ -1,8 +1,8 @@
 // 20201012 컴퓨터학과 임소정
 // LAB 8_3_1
+# define _CRT_SECURE_NO_WARNINGS
 # include <stdio.h>
-
-int stringLength(char* s)
+int stringLength(char* s1)
 {
 	int len = 0;
 	while (*s1)		//'\0'인지 체크

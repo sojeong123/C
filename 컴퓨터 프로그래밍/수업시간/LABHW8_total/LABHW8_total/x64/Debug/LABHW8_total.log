@@ -1,0 +1,3 @@
+﻿LABHW8_total.obj : error LNK2019: printDatamain 함수에서 참조되는 확인할 수 없는 외부 기호
+LABHW8_total.obj : error LNK2019: maxDatamain 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\LABHW8_total\x64\Debug\LABHW8_total.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
