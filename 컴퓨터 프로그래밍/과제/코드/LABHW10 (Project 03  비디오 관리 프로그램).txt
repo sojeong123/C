@@ -1,0 +1,9 @@
+비디오 관리 프로그램
+
+기존에 존재하지만, 대여가 잘 돼서 새로 추가 주문 한것 -> 수량만 증가
+or
+아예 신작인지
+
+(x) if (searchkey == videoList[i].title)
+(o) strcmp(videoList[i].title, searchkey)
+즉, string.h를 사용하는 이유가 존재한다.
