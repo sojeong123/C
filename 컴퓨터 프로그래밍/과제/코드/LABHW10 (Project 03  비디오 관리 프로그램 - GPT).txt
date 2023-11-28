@@ -1,0 +1,132 @@
+
+// 비디오 관리 프로그램 (구조체 기본)
+// (구조체, 구조체 배열)
+// 
+// <기능>
+// 1. 보유 Video들을 출력
+// : 재고대장(videoList)에 있는 Video 정보를 출력한다.
+// 
+// 2. Video 구입
+// : 제목, 수량을 입력받아서, 재고대장	(videoList)에 추가한다.
+// Video 개수(videoCount)를 증가시킨다.
+// 
+// 3. title로 Video 검색
+// : 제목을 입력받아서,
+// 재고대장(videoList)내에 이 Video가 없는지, 전부 대여중인지, 대여 가능한지를 출력한다.
+// (strcmp를 사용한다.)
+// 
+// 4. Video정보는 제목과 수량을 포함한다.
+// 5. 입력을 간단히 하기 위해, 영화제목은 공백문자를 포함하지 않고 처리한다.
+// 
+// 초기에 아래와 같은 Video를 보유하고 있다고 하자.
+// 제목				수량
+// BeforeSunrise	1
+// BeforeSunset		3
+// BeforeMidnight	5
+// Casablanca		7
+// EdgeOfTomorrow	9
+// 
+// 기존에 존재하지만 추가 주문한 것은 수량만 증가하고,
+// 새로운 Video를 추가 주문한 것은 재고대장에 추가한다.
+// 
+// string.h를 사용하여 strcmp(videoList[i].title, searchkey)로 작성한다.
+// 
+// 실행 예시
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 1
+// Video제목			수량
+// -----------------------
+// BeforeSunrise	1
+// BeforeSunset		3
+// BeforeMidnight	5
+// Casablanca		7
+// EdgeOfTomorrow	9
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 2
+// Enter video 제목 : BeginAgain
+// Enter video 수량 : 10
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 1
+// Video제목			수량
+// -----------------------
+// BeforeSunrise	1
+// BeforeSunset		3
+// BeforeMidnight	5
+// Casablanca		7
+// EdgeOfTomorrow	9
+// BeginAgain		10
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 3
+// Enter video 제목 : BeforeSun
+// 그런 비디오는 없습니다.
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 3
+// Enter video 제목 : BeforeSunrise
+// 대여 가능합니다.
+// 1(All Video 출력), 2(구입), 3(검색), 4(종료): 4
+
+Project 03(1) 비디오 관리 프로그램(구조체 기본)
+■ Project3_0(구조체, 구조체 배열)
+다음과 같은 기능을 갖는 Video 관리 프로그램을 작성해보자. Video정보는 제목과 수량을 포함한다.
+1) 보유 Video들을 출력
+2) Video 구입
+3) title로 Video 찾기
+Note:
+– 입력을 간단히 하기 위해 영화 제목은 공백문자를 포함하지 않고 처리하기로 한다.
+초기에 아래와 같은 Video들을 보유하고 있다고 하자.
+제목 수량
+BeforeSunrise 1
+BeforeSunset 3
+BeforeMidnight 5
+Casablanca 7
+EdgeOfTomorrow 9
+각 기능에 대한 설명은 다음과 같다.
+1) 보유 Video들을 출력.
+– 재고대장(videoList)에 있는 Video 정보를 출력한다.
+2) Video 구입
+– 제목, 수량을 입력 받아서 재고대장(videoList)에 저장한다.
+– Video 개수(videoCount)을 한 개 증가시킨다.
+3) title로 Video 찾기
+– 제목을 입력받아서
+재고대장(videoList)내에 이 Video가 없는지, 다 대여중인지, 대여 가능한지를 출력한다.
+(strcmp를사용한다)
+
+#define _CRT_SECURE_NO_WARNINGS
+#define MAX_VIDEO 100
+#define MAX_CHAR 100 // 문자열의 max 문자
+#include <stdio.h>
+#include <string.h>
+struct VideoInfo { // 재고 대장: 현재 보유하고 있는 Video 정보 저장
+char title[MAX_CHAR] ;
+int qty ; // 수량
+};
+int main(void)
+{
+int videoCount = 5;
+struct VideoInfo videoList[MAX_VIDEO] = {...} // 앞의 정보처럼 초기화
+char title[MAX_CHAR];
+int qty;
+// 필요한 변수 추가
+...
+int choice;
+printf("1(All Video 출력), 2(구입), 3(검색), 4(종료): ");
+scanf("%d", &choice);
+while (choice != 4) {
+switch(choice) {
+case 1: // 보유 Video들을 출력
+printf("Video 제목\t 수량\n");
+printf("-----------------------\n");
+// 구현
+break;
+case 2: // Video 구입
+printf("Enter video 제목: ");
+scanf("%s", title);
+printf("Enter video 수량: ");
+scanf("%d", &qty);
+// 구현
+break;
+case 3: // title 로 Video 찾기
+printf("Enter video 제목: ");
+scanf("%s", title);
+//구현
+break;
+}
+printf("1(All Video 출력), 2(구입), 3(검색), 4(종료): ");
+scanf("%d", &choice);
+}
+}
