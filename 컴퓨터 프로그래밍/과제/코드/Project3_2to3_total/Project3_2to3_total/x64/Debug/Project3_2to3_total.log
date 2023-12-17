@@ -1,0 +1,7 @@
+﻿  Project3_2to3_total.c
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\Project3_2to3_total\Project3_2to3_total.c(159,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char **'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\Project3_2to3_total\Project3_2to3_total.c(159,42): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\Project3_2to3_total\Project3_2to3_total.c(203,3): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\Project3_2to3_total\Project3_2to3_total.c(293,47): warning C4047: '함수': 'char **'의 간접 참조 수준이 'char [100]'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\Project3_2to3_total\Project3_2to3_total.c(293,42): warning C4024: 'purchaseVideo': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+  Project3_2to3_total.vcxproj -> C:\Users\Administrator\Desktop\1\Github\C\컴퓨터 프로그래밍\과제\코드\Project3_2to3_total\x64\Debug\Project3_2to3_total.exe
